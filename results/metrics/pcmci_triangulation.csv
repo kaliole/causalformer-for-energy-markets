@@ -1,0 +1,18 @@
+cause,effect,lag,pcmci_pvalue,pcmci_val,pcmci_supported,note
+price,temperature,3,0.315617,-0.012446,False,
+wind_generation,temperature,2,0.289887,0.013122,False,
+solar_generation,temperature,1,0.149994,-0.017848,False,
+temperature,wind_speed,3,0.271391,-0.013636,False,
+price,wind_speed,6,0.957805,-0.000656,False,
+wind_generation,wind_speed,0,,,False,lag=0 not tested (tau_min=1)
+price,solar_radiation,6,0.083492,0.021458,False,
+solar_generation,solar_radiation,1,0.00728,0.033321,True,
+temperature,price,3,0.070428,-0.022424,False,
+solar_radiation,price,10,0.054571,-0.023824,False,
+load,price,6,0.798452,0.003165,False,
+solar_generation,price,0,,,False,lag=0 not tested (tau_min=1)
+temperature,load,4,0.803096,0.003091,False,
+solar_radiation,load,5,0.092006,0.020884,False,
+wind_speed,wind_generation,0,,,False,lag=0 not tested (tau_min=1)
+price,wind_generation,6,0.839611,-0.002509,False,
+price,solar_generation,6,0.408848,-0.01024,False,

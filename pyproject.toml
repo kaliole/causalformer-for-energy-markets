@@ -1,0 +1,17 @@
+[project]
+name = "causal-transformers-energy-thesis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cdsapi>=0.7.7",
+    "dlt>=1.23.0",
+    "entsoe-py>=0.6.1",
+    "matplotlib>=3.10.8",
+    "netcdf4>=1.7.3",
+    "pandas>=2.0",
+    "statsmodels>=0.14.6",
+    "tigramite>=5.2.10.1",
+    "xarray>=2025.6.1",
+]

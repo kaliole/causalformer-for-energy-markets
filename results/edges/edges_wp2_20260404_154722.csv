@@ -1,0 +1,8 @@
+cause,effect,lag,cause_idx,effect_idx
+temperature,temperature,1,0,0
+wind_speed,wind_speed,24,1,1
+solar_radiation,solar_radiation,24,2,2
+price,price,31,3,3
+load,load,1,4,4
+wind_generation,wind_generation,1,5,5
+solar_generation,solar_generation,1,6,6

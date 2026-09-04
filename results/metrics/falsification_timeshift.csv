@@ -1,0 +1,12 @@
+cause,effect,lag
+price,temperature,6
+temperature,wind_speed,3
+price,wind_speed,18
+price,solar_radiation,2
+temperature,price,8
+price,load,4
+temperature,wind_generation,4
+price,wind_generation,4
+temperature,solar_generation,0
+solar_radiation,solar_generation,1
+price,solar_generation,0
